@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal Tech Hub — modern digital services, presentation design, documents, graphics and polished project support." />
+  <meta name="theme-color" content="#09111f" />
+  <meta property="og:title" content="Personal Tech Hub — Ideas, Designed Better" />
+  <meta property="og:description" content="A premium portfolio and creative tech hub for presentations, documents, graphics and digital project support." />
+  <meta property="og:type" content="website" />
+  <title>Personal Tech Hub | Ideas, Designed Better</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="promo-bar" id="promoBar">
+    <div class="container promo-inner">
+      <span><strong>First 10 customers:</strong> launch offer is live for a limited 2-day window.</span>
+      <span class="promo-timer" id="promoTimer">Limited offer</span>
+    </div>
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Personal Tech Hub home">
+        <span class="brand-mark">PTH</span>
+        <span>Personal Tech Hub</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+      <nav class="nav" id="mainNav">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#work">Portfolio</a>
+        <a href="#trust">Trust</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="#contact">Start a Project <span>↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <video class="hero-video" id="heroVideo" autoplay muted loop playsinline preload="metadata" poster="assets/hero-poster.svg">
+        <source src="assets/hero-video.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-overlay"></div>
+      <div class="hero-grid"></div>
+      <div class="container hero-content reveal">
+        <div class="eyebrow"><span class="status-dot"></span> Creative • Digital • Presentation</div>
+        <h1>Ideas deserve a <em>better stage.</em></h1>
+        <p class="hero-copy">I turn rough ideas, ordinary documents and unfinished presentations into polished digital work that looks ready for the real world.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#work">Explore My Work <span>↗</span></a>
+          <a class="btn btn-ghost" href="#contact">Tell Me About Your Project</a>
+        </div>
+        <div class="hero-trust">
+          <span>Built around quality</span><i></i><span>Clear communication</span><i></i><span>Practical pricing</span>
+        </div>
+      </div>
+      <button class="sound-toggle" id="soundToggle" aria-label="Toggle hero video sound">Sound off</button>
+      <a class="scroll-cue" href="#about" aria-label="Scroll to about">Scroll <span>↓</span></a>
+    </section>
+
+    <section class="section section-dark" id="about">
+      <div class="container split-grid">
+        <div class="section-intro reveal">
+          <p class="kicker">01 / ABOUT</p>
+          <h2>A portfolio first. A service hub second.</h2>
+        </div>
+        <div class="about-copy reveal">
+          <p class="lead">Personal Tech Hub is where creative thinking meets useful digital work — not a crowded online shop, but a place to see the work, understand the value, then start a conversation.</p>
+          <div class="mini-stats">
+            <div><strong>04</strong><span>Core services</span></div>
+            <div><strong>01</strong><span>Clear process</span></div>
+            <div><strong>∞</strong><span>Room to grow</span></div>
+          </div>
+          <a class="text-link" href="#services">See what I can help with <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="services">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><p class="kicker">02 / SERVICES</p><h2>Useful work, without the agency fog.</h2></div>
+          <p>Starter pricing gives you a clear place to begin. Bigger or more involved projects can be quoted after we discuss what you actually need.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card reveal" data-service="powerpoint">
+            <div class="service-number">01</div><div class="service-icon">▣</div>
+            <h3>PowerPoint Design</h3><p>Clean, confident slides for school, business, pitches, teaching and public presentations.</p>
+            <div class="service-meta"><span>From ₦5,000</span><span>10 slides</span></div><div class="service-fine">2 revisions • 2–3 days</div>
+            <button class="service-action" data-service="powerpoint">Start with this →</button>
+          </article>
+          <article class="service-card reveal" data-service="word">
+            <div class="service-number">02</div><div class="service-icon">▤</div>
+            <h3>Word Services</h3><p>Polished documents, reports, assignments, formatting, cleanup and presentation-ready layouts.</p>
+            <div class="service-meta"><span>From ₦3,500</span><span>10 pages</span></div><div class="service-fine">2 revisions • 1–2 days</div>
+            <button class="service-action" data-service="word">Start with this →</button>
+          </article>
+          <article class="service-card reveal" data-service="graphic">
+            <div class="service-number">03</div><div class="service-icon">✦</div>
+            <h3>Graphic Design</h3><p>Focused visual design for social posts, promotional graphics, announcements and digital branding pieces.</p>
+            <div class="service-meta"><span>From ₦5,000</span><span>1 design</span></div><div class="service-fine">2 revisions • 1–2 days</div>
+            <button class="service-action" data-service="graphic">Start with this →</button>
+          </article>
+          <article class="service-card reveal" data-service="makeover">
+            <div class="service-number">04</div><div class="service-icon">↗</div>
+            <h3>Presentation Makeover</h3><p>Already have the content? I can transform the structure, hierarchy and visual polish so it feels intentional.</p>
+            <div class="service-meta"><span>From ₦6,000</span><span>Custom scope</span></div><div class="service-fine">Scope, timing & revisions agreed before work</div>
+            <button class="service-action" data-service="makeover">Start with this →</button>
+          </article>
+        </div>
+        <div class="quote-strip reveal"><strong>Need something outside these four?</strong><span>Tell me what you are trying to build and I’ll point you in the right direction.</span><a href="#contact">Request a custom quote →</a></div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="trust">
+      <div class="container trust-section">
+        <div class="section-heading reveal"><div><p class="kicker">TRUST / WHAT YOU GET</p><h2>Professional without the unnecessary drama.</h2></div><p>As the portfolio grows, this is where verified client feedback can live. For now, the site shows the working standards behind every project.</p></div>
+        <div class="trust-grid">
+          <article class="trust-card reveal"><span>01</span><h3>Clear scope</h3><p>What is included, how many revisions are covered and what changes the quote are made clear before work begins.</p></article>
+          <article class="trust-card reveal"><span>02</span><h3>Reliable delivery</h3><p>Starter services have straightforward delivery windows so you can plan around school, work, meetings or deadlines.</p></article>
+          <article class="trust-card reveal"><span>03</span><h3>Secure payment flow</h3><p>Payment is handled through Paystack, with the secret key kept on the server rather than exposed in browser code.</p></article>
+          <article class="trust-card reveal"><span>04</span><h3>Real feedback, not fake quotes</h3><p>Verified client testimonials can be added here after completed projects instead of inventing reviews before the work exists.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="work">
+      <div class="container">
+        <div class="section-heading light reveal">
+          <div><p class="kicker">03 / SELECTED WORK</p><h2>Show the work. Then talk about the work.</h2></div>
+          <p>A growing showcase for presentation design, document polish, graphics and digital experiments.</p>
+        </div>
+        <div class="work-grid">
+          <article class="work-card work-wide reveal"><div class="work-visual work-slide"><span>Presentation System</span><strong>From blank canvas<br />to boardroom-ready.</strong><small>Structure • Typography • Visual hierarchy</small></div><div class="work-info"><span>01 / PRESENTATION</span><h3>Story-first slide design</h3><a href="#contact">Discuss a Project →</a></div></article>
+          <article class="work-card reveal"><div class="work-visual work-doc"><span>Document Polish</span><strong>Clarity<br />matters.</strong><small>Layout • Formatting • Readability</small></div><div class="work-info"><span>02 / DOCUMENTS</span><h3>Professional Word layouts</h3><a href="#contact">Discuss a Project →</a></div></article>
+          <article class="work-card reveal"><div class="work-visual work-graphic"><span>Graphic Direction</span><strong>Make the<br />message visible.</strong><small>Concept • Composition • Social-ready</small></div><div class="work-info"><span>03 / GRAPHICS</span><h3>Digital promotional pieces</h3><a href="#contact">Discuss a Project →</a></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="process">
+      <div class="container">
+        <div class="section-heading reveal"><div><p class="kicker">04 / PROCESS</p><h2>Simple enough to actually use.</h2></div><p>No giant proposal deck required. Bring the idea; we make the next step obvious.</p></div>
+        <div class="process-grid">
+          <div class="process-step reveal"><span>01</span><h3>Tell me</h3><p>Share the service, deadline and what you already have.</p></div>
+          <div class="process-step reveal"><span>02</span><h3>Plan it</h3><p>We agree on scope, timing, revisions and the right starting price.</p></div>
+          <div class="process-step reveal"><span>03</span><h3>Build it</h3><p>The work gets shaped, refined and checked against the brief.</p></div>
+          <div class="process-step reveal"><span>04</span><h3>Deliver it</h3><p>You receive the finished files and the final handoff.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="social">
+      <div class="container social-panel reveal">
+        <div><p class="kicker">05 / SOCIAL HUB</p><h2>Follow the build.</h2><p>See new work, experiments, presentation tips and the behind-the-scenes journey.</p></div>
+        <div class="social-links"><a href="https://x.com/EmmanuelAw80507" target="_blank" rel="noopener"><span>X</span><strong>@EmmanuelAw80507</strong><b>↗</b></a><a href="#contact"><span>IG</span><strong>Instagram-ready work</strong><b>↗</b></a><a href="#contact"><span>LI</span><strong>Professional updates</strong><b>↗</b></a></div>
+      </div>
+    </section>
+
+    <section class="section section-dark contact-section" id="contact">
+      <div class="container contact-layout">
+        <div class="contact-intro reveal"><p class="kicker">06 / CONTACT</p><h2>Let’s make the next thing look like it matters.</h2><p>Tell me what you need. You do not need to have everything figured out before you send the form.</p><div class="contact-note"><span>Typical response:</span><strong>within 24 hours</strong></div></div>
+        <div class="contact-card reveal">
+          <form id="projectForm">
+            <div class="form-heading"><span>PROJECT REQUEST</span><strong id="selectedServiceLabel">Choose a service</strong></div>
+            <input type="hidden" name="service" id="serviceId" />
+            <div class="form-grid"><label><span>Name</span><input name="name" required placeholder="Your name" /></label><label><span>Email</span><input name="email" type="email" required placeholder="you@example.com" /></label></div>
+            <label><span>Phone</span><input name="phone" required placeholder="0800 000 0000" /></label>
+            <label><span>What do you need?</span><textarea name="details" rows="6" required placeholder="Tell me about the project, deadline, number of slides/pages, and anything else useful."></textarea></label>
+            <div class="payment-choice"><div><span>Starter project budget</span><strong id="selectedPrice">Select a service first</strong></div><small>You can request a custom quote before paying.</small></div>
+            <div class="form-actions"><button class="btn btn-primary" type="submit" id="requestButton">Send Project Request</button><button class="btn btn-secondary" type="button" id="payButton" disabled>Pay Starter Price</button></div>
+            <p class="form-status" id="formStatus" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light faq-section">
+      <div class="container faq-layout"><div class="reveal"><p class="kicker">FAQ</p><h2>A few things made clear.</h2></div><div class="faq-list"><details class="reveal"><summary>Are the listed prices fixed?</summary><p>No. They are starter prices. Larger scopes, extra pages/slides or additional revisions can be quoted separately.</p></details><details class="reveal"><summary>Do I have to pay immediately?</summary><p>No. You can send a project request first. Payment is an optional next step when you are ready to start.</p></details><details class="reveal"><summary>What payment method is supported?</summary><p>The website is prepared for Paystack. The live payment flow uses server-side transaction initialization and verification, while your secret key stays on the server.</p></details><details class="reveal"><summary>Can you work with my existing file?</summary><p>Yes. Presentation makeovers and document cleanup are specifically designed for projects where you already have content.</p></details></div></div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><div><strong>Personal Tech Hub</strong><span>Ideas, designed better.</span></div><div><span>© <span id="year"></span> Personal Tech Hub</span><a href="#home">Back to top ↑</a></div></div></footer>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
